@@ -1,0 +1,22 @@
+[window_mode]
+width = 960
+height = 1000
+borderless = false
+fullscreen_type = "Off"
+vsync = true
+min_width = 50
+min_height = 50
+max_width = 1920
+max_height = 1080
+
+[window_setup]
+title = "Play"
+icon = ""
+resizable = true
+allow_highdpi = true
+samples = "One"
+
+[backend]
+type = "OpenGL"
+major = 3
+minor = 2
