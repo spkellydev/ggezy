@@ -6,8 +6,13 @@ use ggez::event;
 use ggez::{Context};
 use ggez::conf::Conf;
 
-mod game_state;
-use game_state::GameState;
+mod base;
+mod player;
+mod direction;
+mod actor_handler;
+mod state;
+
+use state::GameState;
 
 fn main() {
     let mut file = File::open("conf.toml").unwrap();
